@@ -1,0 +1,272 @@
+{
+  "version": "2026-10-23",
+  "sources": [
+    {
+      "id": "oms-2024",
+      "title": "OMS acusa a tabacaleras de querer enganchar a jóvenes con vaporizadores",
+      "publisher": "Expansión, sobre declaraciones de la OMS (mayo de 2024)",
+      "url": "https://expansion.mx/empresas/2024/05/23/oms-acusa-tabacaleras-enganchar-jovenes-vaporizadores"
+    },
+    {
+      "id": "cdc-sg",
+      "title": "Electronic Cigarettes and Vaping",
+      "publisher": "Departamento de Salud de Texas, con datos de los CDC y del informe del Surgeon General de EE. UU. (2016)",
+      "url": "https://www.dshs.texas.gov/tobacco/E-Cigarettes"
+    },
+    {
+      "id": "dof-2025",
+      "title": "Oficial: prohibición de vapeadores (reforma a los artículos 4.º y 5.º constitucionales, DOF 17/01/2025)",
+      "publisher": "IDC Online",
+      "url": "https://idconline.mx/corporativo/2025/01/22/oficial-prohibicion-de-vapeadores-y-el-uso-ilegal-de-fentanilo"
+    },
+    {
+      "id": "diputados-2025",
+      "title": "México prohíbe totalmente los vapeadores y cigarrillos electrónicos",
+      "publisher": "Vanguardia (9 de diciembre de 2025)",
+      "url": "https://www.vanguardia.com/mundo/2025/12/09/mexico-prohibe-totalmente-los-vapeadores-y-cigarrillos-electronicos/"
+    },
+    {
+      "id": "medlineplus",
+      "title": "Cómo manejar los antojos de tabaco",
+      "publisher": "MedlinePlus, Biblioteca Nacional de Medicina de EE. UU.",
+      "url": "https://medlineplus.gov/ency/patientinstructions/000854.htm"
+    },
+    {
+      "id": "linea-vida",
+      "title": "Línea de la Vida: atención gratuita las 24 horas",
+      "publisher": "CONASAMA, Secretaría de Salud (vía Noticias Gobierno, 2026)",
+      "url": "https://www.noticiasgobierno.com/atencion-psicologica-gratuita-linea-de-la-vida-2026/"
+    }
+  ],
+  "facts": [
+    {
+      "id": "vapor-no-es-agua",
+      "title": "El aerosol de un vapeador no es solo vapor de agua",
+      "text": "El aerosol que sale de un vapeador puede contener nicotina, sustancias que causan cáncer, metales pesados como níquel, estaño y plomo, partículas ultrafinas que llegan hasta el fondo de los pulmones y saborizantes como el diacetilo, relacionado con una enfermedad pulmonar grave.",
+      "keywords": [
+        "vapor",
+        "agua",
+        "aerosol",
+        "contiene",
+        "metales",
+        "pulmon",
+        "pulmones",
+        "quimicos",
+        "sustancias",
+        "daño",
+        "dano",
+        "inofensivo",
+        "seguro"
+      ],
+      "sources": ["cdc-sg"]
+    },
+    {
+      "id": "cerebro",
+      "title": "La nicotina y el cerebro que sigue creciendo",
+      "text": "El cerebro termina de desarrollarse alrededor de los 25 años. La nicotina puede causar adicción y afectar las áreas relacionadas con la atención, el aprendizaje, la memoria, el estado de ánimo y el control de impulsos.",
+      "keywords": [
+        "cerebro",
+        "nicotina",
+        "adiccion",
+        "adictivo",
+        "aprender",
+        "memoria",
+        "concentracion",
+        "atencion",
+        "jovenes",
+        "adolescentes",
+        "animo"
+      ],
+      "sources": ["cdc-sg"]
+    },
+    {
+      "id": "disfraz",
+      "title": "Dispositivos disfrazados de objetos escolares",
+      "text": "Algunos vapeadores se parecen a objetos cotidianos como memorias USB, bolígrafos o marcatextos, lo que hace más fácil esconderlos.",
+      "keywords": [
+        "usb",
+        "boligrafo",
+        "pluma",
+        "marcatextos",
+        "esconder",
+        "escuela",
+        "parece",
+        "disfraz",
+        "forma"
+      ],
+      "sources": ["cdc-sg"]
+    },
+    {
+      "id": "sabores-diseno",
+      "title": "Sabores de dulce y diseños de juguete",
+      "text": "La OMS ha señalado que los sabores afrutados o de dulce, como algodón de azúcar y chicle, y los diseños llamativos que recuerdan a juguetes atraen a niñas, niños y jóvenes.",
+      "keywords": [
+        "sabor",
+        "sabores",
+        "dulce",
+        "chicle",
+        "algodon",
+        "fruta",
+        "colores",
+        "diseño",
+        "diseno",
+        "juguete",
+        "niños",
+        "ninos"
+      ],
+      "sources": ["oms-2024"]
+    },
+    {
+      "id": "canales",
+      "title": "Dónde aparece la publicidad",
+      "text": "Según la OMS, la industria promueve estos productos en redes sociales, en programas de televisión y videojuegos, con patrocinios de eventos deportivos y musicales y con muestras gratuitas en eventos.",
+      "keywords": [
+        "publicidad",
+        "redes",
+        "sociales",
+        "videojuegos",
+        "television",
+        "marketing",
+        "anuncios",
+        "influencer",
+        "eventos",
+        "muestras",
+        "gratis"
+      ],
+      "sources": ["oms-2024"]
+    },
+    {
+      "id": "reduccion-dano",
+      "title": "El argumento de que es menos dañino",
+      "text": "La OMS ha rechazado el argumento de la industria de que estos productos sirven para reducir daños, y ha señalado que se trata de la misma nicotina en un envase diferente.",
+      "keywords": [
+        "menos",
+        "dañino",
+        "danino",
+        "reducir",
+        "daño",
+        "dano",
+        "alternativa",
+        "mejor",
+        "cigarro",
+        "dejar",
+        "fumar",
+        "ayuda"
+      ],
+      "sources": ["oms-2024"]
+    },
+    {
+      "id": "ley-mexico",
+      "title": "Qué dice la ley en México",
+      "text": "Desde el 17 de enero de 2025, la Constitución mexicana prohíbe la producción, distribución y comercialización de vapeadores y cigarrillos electrónicos. En diciembre de 2025, la Cámara de Diputados aprobó además una reforma a la Ley General de Salud con sanciones para quien los venda o distribuya.",
+      "keywords": [
+        "ley",
+        "legal",
+        "ilegal",
+        "prohibido",
+        "vender",
+        "venta",
+        "tienda",
+        "constitucion",
+        "mexico",
+        "multa",
+        "carcel"
+      ],
+      "sources": ["dof-2025", "diputados-2025"]
+    },
+    {
+      "id": "antojos",
+      "title": "Cuánto duran los antojos",
+      "text": "Los antojos pueden aparecer durante algunas semanas después de dejar la nicotina. Los primeros tres días suelen ser los más difíciles y después la intensidad baja con el tiempo. También pueden aparecer cansancio, mal humor y dolor de cabeza.",
+      "keywords": [
+        "antojo",
+        "antojos",
+        "ganas",
+        "cuanto",
+        "dura",
+        "duran",
+        "abstinencia",
+        "sintomas",
+        "dias",
+        "semanas",
+        "dificil"
+      ],
+      "sources": ["medlineplus"]
+    },
+    {
+      "id": "estrategias",
+      "title": "Qué hacer cuando llega un antojo",
+      "text": "Ayuda escribir tus razones para dejarlo, ponerte reglas como esperar 10 minutos antes de consumir, alejarte de las situaciones que asocias con el consumo, mantener las manos y la boca ocupadas (por ejemplo con chicle sin azúcar o verduras), respirar profundo, escuchar música y moverte un poco, aunque sea subir y bajar escaleras.",
+      "keywords": [
+        "que",
+        "hago",
+        "hacer",
+        "antojo",
+        "ganas",
+        "controlar",
+        "evitar",
+        "estrategia",
+        "consejo",
+        "tips",
+        "estres",
+        "ansiedad",
+        "respirar",
+        "ejercicio"
+      ],
+      "sources": ["medlineplus"]
+    },
+    {
+      "id": "apoyo-profesional",
+      "title": "Apoyo profesional y tratamientos",
+      "text": "Si sientes que no puedes dejarlo por tu cuenta, habla con un profesional de la salud. La terapia de reemplazo de nicotina puede ayudar a controlar los antojos en la etapa inicial; un profesional debe indicar si es adecuada para ti y cómo usarla.",
+      "keywords": [
+        "medicamento",
+        "parche",
+        "chicle",
+        "reemplazo",
+        "terapia",
+        "doctor",
+        "medico",
+        "tratamiento",
+        "no puedo",
+        "solo"
+      ],
+      "sources": ["medlineplus"]
+    },
+    {
+      "id": "linea-vida",
+      "title": "Línea de la Vida",
+      "text": "La Línea de la Vida (800 911 2000) es gratuita, atiende las 24 horas los 365 días del año y la opera la Comisión Nacional de Salud Mental y Adicciones (CONASAMA) de la Secretaría de Salud.",
+      "keywords": [
+        "ayuda",
+        "telefono",
+        "llamar",
+        "linea",
+        "vida",
+        "crisis",
+        "apoyo",
+        "hablar",
+        "urgente",
+        "conasama"
+      ],
+      "sources": ["linea-vida"]
+    },
+    {
+      "id": "otros-productos",
+      "title": "Bolsas de nicotina y tabaco calentado",
+      "text": "Las bolsas de nicotina y el tabaco calentado también entregan nicotina, la sustancia que causa la adicción. Que no produzcan humo no significa que no generen dependencia.",
+      "keywords": [
+        "bolsas",
+        "pouches",
+        "calentado",
+        "iqos",
+        "heets",
+        "zyn",
+        "humo",
+        "nicotina",
+        "otros"
+      ],
+      "sources": ["cdc-sg"]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+/* Fuentes autohospedadas (funcionan sin conexión) — solo el subconjunto latino. */
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url('../../node_modules/@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-wght-normal.woff2')
+    format('woff2-variations');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../../node_modules/@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-400-normal.woff2')
+    format('woff2');
+}
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url('../../node_modules/@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-700-normal.woff2')
+    format('woff2');
+}
+
+/*
+  Identidad: cuaderno de cuadrícula de primaria + marcatextos.
+  Tinta índigo de pluma, magenta y amarillo de marcatextos (los colores de "Detrás del humo").
+*/
+:root {
+  color-scheme: light;
+
+  --paper: #f4f7fc;
+  --paper-raised: #ffffff;
+  --grid-line: #dbe4f3;
+  --ink: #1c2147;
+  --ink-soft: #4a5175;
+  --ink-faint: #6b7294;
+  --ink-press: #0c0f2b;
+  --line: #c9d2e6;
+  --magenta: #c21e6e;
+  --magenta-soft: #fbe3ef;
+  --lemon: #f2da3a;
+  --lemon-soft: #fbf2b5;
+  --mint: #0d7655;
+  --mint-soft: #dcf3ea;
+  --danger: #b42318;
+  --danger-soft: #fde5e2;
+  --smoke: #9aa3b8;
+  --on-ink: #ffffff;
+  --focus: #c21e6e;
+
+  --font-display: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif;
+  --font-body: 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Escala tipográfica (razón ~1.25) con base de 18px para lectores de 8 a 12 años. */
+  --step--1: 0.875rem;
+  --step-0: 1.125rem;
+  --step-1: 1.375rem;
+  --step-2: 1.75rem;
+  --step-3: clamp(2rem, 1.6rem + 2vw, 2.75rem);
+  --step-4: clamp(2.4rem, 1.7rem + 3.6vw, 4rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+
+  --radius-s: 8px;
+  --radius-m: 14px;
+  --radius-l: 22px;
+
+  --shadow-press: 0 4px 0 var(--ink-press);
+  --shadow-sheet: 0 1px 0 var(--line), 0 12px 28px -18px rgb(28 33 71 / 0.35);
+
+  --measure: 68ch;
+  --page-max: 1120px;
+  --grid-size: 22px;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 140ms;
+  --dur-mid: 260ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #121530;
+    --paper-raised: #1b1f42;
+    --grid-line: #20254b;
+    --ink: #eef0fa;
+    --ink-soft: #c3c8e3;
+    --ink-faint: #a3a9c9;
+    --ink-press: #05061a;
+    --line: #343a6a;
+    --magenta: #ff74b3;
+    --magenta-soft: #3d1a33;
+    --lemon: #f2da3a;
+    --lemon-soft: #3b3616;
+    --mint: #5fd6a7;
+    --mint-soft: #13362c;
+    --danger: #ff8a7d;
+    --danger-soft: #3d1a19;
+    --on-ink: #121530;
+    --focus: #ff74b3;
+    --shadow-sheet: 0 1px 0 var(--line), 0 12px 28px -18px rgb(0 0 0 / 0.7);
+  }
+}

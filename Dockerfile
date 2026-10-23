@@ -14,7 +14,8 @@ RUN npm ci --omit=dev && npm cache clean --force
 COPY --from=build /app/dist ./dist
 COPY server ./server
 COPY shared ./shared
-RUN mkdir -p /data && chown node:node /data
+# /data es la carpeta prevista; /app/data cubre el caso de DATA_DIR=./data.
+RUN mkdir -p /data /app/data && chown node:node /data /app/data
 USER node
 VOLUME ["/data"]
 EXPOSE 8787
